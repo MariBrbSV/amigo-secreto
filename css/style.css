@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Great+Vibes&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body { 
+    background-color: black; 
+    color: white; 
+    font-family: "Raleway";
+    text-align: center; 
+    margin: 0; 
+    padding: 0; 
+} 
+
+.container { 
+    padding: 20px;
+    
+} 
+
+.title { 
+    font-size: 24px; 
+    margin-bottom: 10px; 
+} 
+
+.subtitle { 
+    font-size: 36px; 
+    margin-bottom: 20px; 
+} 
+
+.circle-container { 
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap; 
+} 
+
+.circle { 
+    background-color: gray; 
+    border-radius: 50%; 
+    width: 70px; 
+    height: 70px; 
+    margin: 10px; 
+    display: flex !important; 
+    align-items: center !important; 
+    justify-content: center !important; 
+    object-fit:cover;
+    
+} 
+
+.name { 
+    margin-top: 10px; 
+    font-size: 18px; 
+}
+
+@media (max-width: 600px) {   
+.circle { 
+    width: 80px; 
+    height: 80px; 
+} 
+.name { 
+    font-size: 16px; 
+} 
+}
+.circle-item { 
+    margin: 10px; 
+    text-align: center;
+}
+
+.btn-danger {
+    background-color: #C00000 !important;
+}
+
+.cards {
+    width: 18rem;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.separador {
+    width: 200px;
+    height: 10px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(191,0,0,1) 100%, rgba(0,0,0,1) 100%);
+}
+
+@media (max-width: 768px) { 
+    .card { max-width: 100%; 
+    
+}}
+
+.card-header { 
+    display: flex; 
+    align-items: center; 
+    width: 100%;
+    margin-left: -20px;
+}
+
+.img-presente {
+    width: 100%; 
+    height: auto; 
+    max-height: 150px; 
+    max-width: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+  
+  .card {
+    flex: 1 1 200px; /* Cresce, encolhe, base 200px */
+    max-width: 300px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  
+  
+
